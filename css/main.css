@@ -1,0 +1,32 @@
+main{
+    background-color: white;
+    height: 100vh;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.title-center{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.1rem;
+}
+
+.frasecenter{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.5rem;
+    height: 8px;
+
+}
+.textblue{
+    color: #3347B0;
+    font-weight:bolder;
+
+}
+
+.studentimg{
+    height: 45vh;
+}
+.centroimg{
+    height: 20vh;
+    padding-right: 100px;
+ 
+}
