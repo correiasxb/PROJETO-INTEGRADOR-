@@ -7,21 +7,34 @@ body{
 
 header{
   background-color: #3347B0;
+  padding: 15px;
 }
 
  .logo-center{
     padding-left: 3vw;
     height: 3vw;
+    
+}
+
+.sair-center{
+    padding-right: 3vw;
+    height: 2vw;
+    margin-top: 10px;
 }
 
 .title-center{
     font-family: 'Roboto', sans-serif;
 
 }
-
-.sair-center{
-    height: 2vw;
-   
-    
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
+.sair-container{
+   height: 4vw;
+}
+.content-container{
+    justify-content: space-between;
+    display: flex;
+}

@@ -1,32 +1,43 @@
 main{
-    background-color: white;
-    height: 100vh;
-    padding-left: 100px;
-    padding-top: 100px;
+    height: 75.6vh;
+    display: flex;
+    align-items: center;
 }
-
-.title-center{
-    font-family: 'Roboto', sans-serif;
-    font-size: 3.1rem;
+.text-container{
+    font-size: 5rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    
+    
 }
-
-.frasecenter{
-    font-family: 'Roboto', sans-serif;
-    font-size: 4.5rem;
-    height: 8px;
-
+.uniao{
+    padding-top: 0px;
+    display: flex;
+    gap: 15px;
+    
 }
-.textblue{
+.second{
     color: #3347B0;
-    font-weight:bolder;
-
+    font-weight: 700;
 }
-
-.studentimg{
+.text-devices{
+    margin-left: 7vw;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.studentdev{
+   display: flex;
+   flex-direction: column;
+}
+.student-center{
     height: 45vh;
 }
-.centroimg{
+.computerdev{
     height: 20vh;
-    padding-right: 100px;
- 
+    padding-top: 50px;
+} 
+.computer-center{
+    height: 36vh;
+    padding-top: 59px;
 }
